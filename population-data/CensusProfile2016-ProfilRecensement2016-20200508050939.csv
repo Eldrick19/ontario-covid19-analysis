@@ -1,0 +1,76 @@
+,,,"Ontario [Province]",,,,,,"Canada [Country]"
+"Topic","Characteristics","Note","Total","Flag_Total","Male","Flag_Male","Female","Flag_Female","Total","Flag_Total","Male","Flag_Male","Female","Flag_Female"
+,,,"Counts (unless otherwise specified)",,,,,,
+"Population and dwellings","Population; 2016",1,13448494,,,...,,...,35151728,,,...,,...
+"Population and dwellings","Population; 2011",1,12851821,,,...,,...,33476688,,,...,,...
+"Population and dwellings","Population percentage change; 2011 to 2016",,      4.6,,,...,,...,      5.0,,,...,,...
+"Population and dwellings","Total private dwellings",2, 5598391,,,...,,...,15412443,,,...,,...
+"Population and dwellings","Private dwellings occupied by usual residents",3, 5169174,,,...,,...,14072079,,,...,,...
+"Population and dwellings","Population density per square kilometre",,   14.8,,,...,,...,    3.9,,,...,,...
+"Population and dwellings","Land area in square kilometres",, 908699.33,,,...,,...,8965588.85,,,...,,...
+"Age characteristics","Total - Age groups and average age of the population - 100% data",4,13448495,, 6559390,, 6889105,,35151730,,17264200,,17887530,
+"Age characteristics","  0 to 14 years",, 2207970,, 1131615,, 1076350,, 5839565,, 2992920,, 2846645,
+"Age characteristics","    0 to 4 years",,  697360,,  357300,,  340055,, 1898790,,  973030,,  925760,
+"Age characteristics","    5 to 9 years",,  756085,,  387320,,  368765,, 2018130,, 1034685,,  983445,
+"Age characteristics","    10 to 14 years",,  754530,,  387000,,  367530,, 1922645,,  985200,,  937445,
+"Age characteristics","  15 to 64 years",, 8988865,, 4412115,, 4576750,,23376530,,11576130,,11800400,
+"Age characteristics","    15 to 19 years",,  811670,,  416730,,  394945,, 2026160,, 1039215,,  986940,
+"Age characteristics","    20 to 24 years",,  894390,,  457815,,  436570,, 2242690,, 1144495,, 1098200,
+"Age characteristics","    25 to 29 years",,  874350,,  436345,,  438010,, 2285990,, 1144470,, 1141515,
+"Age characteristics","    30 to 34 years",,  864765,,  420800,,  443965,, 2329395,, 1148290,, 1181110,
+"Age characteristics","    35 to 39 years",,  842485,,  402900,,  439585,, 2288365,, 1118635,, 1169730,
+"Age characteristics","    40 to 44 years",,  871875,,  418465,,  453415,, 2255135,, 1104440,, 1150695,
+"Age characteristics","    45 to 49 years",,  937385,,  453105,,  484275,, 2359965,, 1157760,, 1202210,
+"Age characteristics","    50 to 54 years",, 1056345,,  517170,,  539175,, 2678075,, 1318755,, 1359320,
+"Age characteristics","    55 to 59 years",,  989460,,  482280,,  507180,, 2620240,, 1285190,, 1335055,
+"Age characteristics","    60 to 64 years",,  846145,,  406505,,  439640,, 2290510,, 1114885,, 1175630,
+"Age characteristics","  65 years and over",, 2251655,, 1015655,, 1236000,, 5935630,, 2695150,, 3240485,
+"Age characteristics","    65 to 69 years",,  737745,,  352475,,  385270,, 1972480,,  953075,, 1019405,
+"Age characteristics","    70 to 74 years",,  528645,,  250455,,  278185,, 1420875,,  677975,,  742900,
+"Age characteristics","    75 to 79 years",,  393010,,  179810,,  213195,, 1021850,,  469550,,  552300,
+"Age characteristics","    80 to 84 years",,  291185,,  126825,,  164360,,  749650,,  325765,,  423880,
+"Age characteristics","    85 years and over",,  301075,,  106090,,  194985,,  770780,,  268790,,  501990,
+"Age characteristics","      85 to 89 years",,  188470,,   73045,,  115425,,  482525,,  185535,,  296990,
+"Age characteristics","      90 to 94 years",,   88390,,   27400,,   60990,,  223510,,   68675,,  154835,
+"Age characteristics","      95 to 99 years",,   21210,,    5150,,   16060,,   56525,,   13240,,   43280,
+"Age characteristics","      100 years and over",,    3005,,     495,,    2520,,    8230,,    1340,,    6890,
+"Age characteristics","Total - Distribution (%) of the population by broad age groups - 100% data",,  100.0,,  100.0,,  100.0,,  100.0,,  100.0,,  100.0,
+"Age characteristics","  0 to 14 years",,   16.4,,   17.3,,   15.6,,   16.6,,   17.3,,   15.9,
+"Age characteristics","  15 to 64 years",,   66.8,,   67.3,,   66.4,,   66.5,,   67.1,,   66.0,
+"Age characteristics","  65 years and over",,   16.7,,   15.5,,   17.9,,   16.9,,   15.6,,   18.1,
+"Age characteristics","    85 years and over",,    2.2,,    1.6,,    2.8,,    2.2,,    1.6,,    2.8,
+"Age characteristics","Average age of the population",,   41.0,,   40.0,,   41.9,,   41.0,,   40.1,,   41.9,
+"Age characteristics","Median age of the population",,   41.3,,   40.2,,   42.4,,   41.2,,   40.2,,   42.2,
+
+Symbols:
+...,not applicable
+
+Notes:
+1, 2016 and 2011 population
+,Statistics Canada is committed to protect the privacy of all Canadians and the confidentiality of the data they provide to us. As part of this commitment  some population counts of geographic areas are adjusted in order to ensure confidentiality.
+,The adjustment to counts of the total population for any dissemination block is controlled to ensure that the population counts for dissemination areas will always be within 5 of the actual values. The adjustment has no impact on the population counts of census divisions and large census subdivisions.
+2, Total private dwellings
+,'Private dwelling' refers to a separate set of living quarters with a private entrance either from outside the building or from a common hall  lobby  vestibule or stairway inside the building. The entrance to the dwelling must be one that can be used without passing through the living quarters of some other person or group of persons.
+,For more information  refer to the Census Dictionary: Private dwelling.
+3, Private dwellings occupied by usual residents
+,'Private dwelling occupied by usual residents' refers to a private dwelling in which a person or a group of persons is permanently residing. Also included are private dwellings whose usual residents are temporarily absent on May 10  2016.
+4, Total - Age groups and average age of the population - 100% data
+,For data on the population by single years of age  refer to the table titled 'Age (in single years) and average age' in the census data tables.
+
+Data quality:
+Ontario [Province]
+Excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements.
+Global non-response rate (GNR)  short-form census questionnaire: 3.7%
+Global non-response rate (GNR)  long-form census questionnaire: 4.6%
+
+Canada [Country]
+Excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements.
+Global non-response rate (GNR)  short-form census questionnaire: 4.0%
+Global non-response rate (GNR)  long-form census questionnaire: 5.1%
+
+
+"Source: Statistics Canada, 2016 Census of Population."
+
+How to cite: Statistics Canada. 2017. Census Profile. 2016 Census.
+Statistics Canada Catalogue no. 98-316-X2016001. Ottawa. Released November 29 2017.
+http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E
