@@ -1,0 +1,8 @@
+TEST DATA:
+https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
+
+POSITIVE CASES DATA:
+https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario
+
+POPULATION DATA:
+https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=35&Geo2=PR&Code2=01&SearchText=ontario&SearchType=Begins&SearchPR=01&B1=Population&TABID=1&type=0
