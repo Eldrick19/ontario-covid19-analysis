@@ -2,8 +2,8 @@
 import pandas as pd
 
 ### Import data from CSV
-df = pd.read_csv('positive-cases-detail/conposcovidloc.csv')
-#print(df.head())
+df = pd.read_csv('positive-cases/conposcovidloc.csv')
+print('Loading...')
 
 ### Get Age-Gender Combinations (Method 1)
 gender_age_list = []
@@ -20,43 +20,44 @@ dfAB = dfAB.reset_index(drop=True)
 
 ### Distribute Combination Icons
 icon_list = []
+link_path = 'https://raw.githubusercontent.com/Eldrick19/ontario-covid19-analysis/master/img/bar-chart-race/'
 for index, row in dfAB.iterrows():
     if row['Age_Group'] == '<20' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/minor-f.png')
+        icon_list.append(link_path + 'minor-f.png')
     elif row['Age_Group'] == '<20' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/minor-m.png')
+        icon_list.append(link_path + 'minor-m.png')
     elif row['Age_Group'] == '20s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/20-f.png')
+        icon_list.append(link_path + '20-f.png')
     elif row['Age_Group'] == '20s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/20-m.png')
+        icon_list.append(link_path + '20-m.png')
     elif row['Age_Group'] == '30s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/30-f.png')
+        icon_list.append(link_path + '30-f.png')
     elif row['Age_Group'] == '30s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/30-m.png')
+        icon_list.append(link_path + '30-m.png')
     elif row['Age_Group'] == '40s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/middleaged-f.png')
+        icon_list.append(link_path + 'middleaged-f.png')
     elif row['Age_Group'] == '40s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/middleage-m.png')
+        icon_list.append(link_path + 'middleaged-m.png')
     elif row['Age_Group'] == '50s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/middleaged-f.png')
+        icon_list.append(link_path + 'middleaged-f.png')
     elif row['Age_Group'] == '50s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/middleaged-m.png')
+        icon_list.append(link_path + 'middleaged-m.png')
     elif row['Age_Group'] == '60s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/elderly-f.png')
+        icon_list.append(link_path + 'elderly-f.png')
     elif row['Age_Group'] == '60s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/elderly-m.png')
+        icon_list.append(link_path + 'elderly-m.png')
     elif row['Age_Group'] == '70s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/elderly-f.png')
+        icon_list.append(link_path + 'elderly-f.png')
     elif row['Age_Group'] == '70s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/elderly-m.png')
+        icon_list.append(link_path + 'elderly-m.png')
     elif row['Age_Group'] == '80s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/elderly-f.png')
+        icon_list.append(link_path + 'elderly-f.png')
     elif row['Age_Group'] == '80s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/elderly-m.png')
+        icon_list.append(link_path + 'elderly-m.png')
     elif row['Age_Group'] == '90s' and row['Client_Gender'] == 'FEMALE':
-        icon_list.append('img/bar-chart-race/elderly-f.png')
+        icon_list.append(link_path + 'elderly-f.png')
     elif row['Age_Group'] == '90s' and row['Client_Gender'] == 'MALE':
-        icon_list.append('img/bar-chart-race/elderly-m.png')
+        icon_list.append(link_path + 'elderly-m.png')
     else:
         icon_list.append('')
 
@@ -103,3 +104,4 @@ dfABCZ = dfABCZ[dfABCZ.Client_Gender != '(blank)']
 
 ### Export to CSV
 dfABCZ.to_csv('bar-chart-race-output.csv', index=False)
+print('Done!')
