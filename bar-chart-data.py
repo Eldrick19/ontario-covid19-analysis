@@ -2,7 +2,7 @@
 import pandas as pd
 
 ### Import data from CSV
-df = pd.read_csv('positive-cases/conposcovidloc.csv')
+df = pd.read_csv('datasets/positive-cases/conposcovidloc.csv')
 print('Loading...')
 
 ### Get Age-Gender Combinations (Method 1)
@@ -78,6 +78,13 @@ for index, row in dfbyDate.iterrows():
     age_group = row['Age_Group']
     gender = row['Client_Gender']
     date = row['Accurate_Episode_Date']
+    
+    if not (isinstance(age_group, str) and isinstance(gender, str) and isinstance(date, str)):
+        print('Null value found.')
+        continue
+
+    print('Age Group: ', age_group, 'Gender: ', gender, 'Index:', index)
+
     key = age_group + gender
 
     if key not in values_dict:
